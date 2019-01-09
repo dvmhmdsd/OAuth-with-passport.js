@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= title %></title>
+    <title>Login page</title>
     <style>
         body{
             font-family: arial;
@@ -37,6 +37,13 @@
             padding: 0 10px;
             color: #333;
         }
+        .google-btn{
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            background: #ff5353;
+        }
     </style>
 </head>
 <body>
@@ -48,11 +55,10 @@
         </ul>
     </nav>
     <header>
-        <h1>Simple OAth app</h1>
-        <h2>Homepage</h2>
+        <h1>Login using...</h1>
     </header>
     <main>
-        <p>Probably the best OAuth tutorials on the planet :)</p>
+        <a class="google-btn" href="/auth/google">Google+</a>
     </main>
 </body>
 </html>
