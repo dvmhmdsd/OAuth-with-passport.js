@@ -27,7 +27,8 @@ passport.use(
             } else {
                 new User({
                     username: profile.displayName,
-                    googleID: profile.id
+                    googleID: profile.id,
+                    thumbnails: profile._json.image.url
                 }).save().then((newUser) => {
                     console.log(newUser);
                     done(null, newUser);
