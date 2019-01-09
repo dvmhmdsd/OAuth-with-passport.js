@@ -9,7 +9,7 @@ const checkAuth = (req, res, next) => {
 }
 
 router.get('/', checkAuth, (req, res) => {
-    res.send(req.user.username);
+    res.render('profile', {user: req.user});
 });
 
 module.exports = router;
