@@ -32,7 +32,7 @@ app.use('/profile', profileRouter);
 
 // set the home route
 app.get('/', (req, res) => {
-    res.render('home', {title: 'OAth app'});
+    res.render('home', {title: 'OAth app', user: req.user});
 })
 
 //set the listen port
