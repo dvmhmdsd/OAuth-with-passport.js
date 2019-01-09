@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mohamedsaad4/OAuth-with-passport.js/issues"
   },
-  "homepage": "https://github.com/mohamedsaad4/OAuth-with-passport.js#readme"
+  "homepage": "https://github.com/mohamedsaad4/OAuth-with-passport.js#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
 }
