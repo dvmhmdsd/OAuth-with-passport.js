@@ -8,6 +8,6 @@ passport.use(
         clientID: keys.google.clientID,
         clientSecret: keys.google.clientSecret
     }, () => {
-
+        console.log('the callback function fired');
     })
 )
