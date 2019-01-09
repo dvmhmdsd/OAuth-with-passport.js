@@ -1,0 +1,19 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "a simple auth app with passport.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedsaad4/OAuth-with-passport.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedsaad4/OAuth-with-passport.js/issues"
+  },
+  "homepage": "https://github.com/mohamedsaad4/OAuth-with-passport.js#readme"
+}
